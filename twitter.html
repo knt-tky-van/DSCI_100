@@ -14731,7 +14731,7 @@ height=1200
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="4.-Method">4. Method<a class="anchor-link" href="#4.-Method">&#182;</a></h1><p>The twitter data that was used was already in tidy format; therefore, there is very little cleaning or wrangling to do. However, the original data had 1.5 million observations and was whittled down to 1000. After cleaning, analysis was performed to determine whether a twitter account is verified (class) based on three different groupings of variables: the number of followers, posts, likes, and friends. These were the numerical variables that could be used to determine the class. To determine which group of variables would produce the most accurate results, they were grouped into follower+post count; friend+like count; and follower, post, and like count. Then the most accurate k value for each group was determined by plotting k values as multiples of 10 against the prediction accuracy for that k value. The most accurate k value was found to be 1. Using this information, the test data was used to predict whether an account was verified or not using all three variable groupings. The accuracy of each variable grouping was visualized as a bar graph of its percentage success. All three categories had a percentage success of 92-99.6%.</p>
+<h1 id="3.-Method">3. Method<a class="anchor-link" href="#3.-Method">&#182;</a></h1><p>The twitter data that was used was already in tidy format; therefore, there is very little cleaning or wrangling to do. However, the original data had 1.5 million observations and was whittled down to 1000. After cleaning, analysis was performed to determine whether a twitter account is verified (class) based on three different groupings of variables: the number of followers, posts, likes, and friends. These were the numerical variables that could be used to determine the class. To determine which group of variables would produce the most accurate results, they were grouped into follower+post count; friend+like count; and follower, post, and like count. Then the most accurate k value for each group was determined by plotting k values as multiples of 10 against the prediction accuracy for that k value. The most accurate k value was found to be 1. Using this information, the test data was used to predict whether an account was verified or not using all three variable groupings. The accuracy of each variable grouping was visualized as a bar graph of its percentage success. All three categories had a percentage success of 92-99.6%.</p>
 
 </div>
 </div>
@@ -14739,21 +14739,21 @@ height=1200
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.1-Cleaning-&amp;-Wrangling">4.1 Cleaning &amp; Wrangling<a class="anchor-link" href="#4.1-Cleaning-&amp;-Wrangling">&#182;</a></h2>
+<h2 id="3.1-Cleaning-&amp;-Wrangling">3.1 Cleaning &amp; Wrangling<a class="anchor-link" href="#3.1-Cleaning-&amp;-Wrangling">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.2-Cross-validation-(10-folds)-and--Choosing-K">4.2 Cross-validation (10 folds) and  Choosing K<a class="anchor-link" href="#4.2-Cross-validation-(10-folds)-and--Choosing-K">&#182;</a></h2>
+<h2 id="3.2-Cross-validation-(10-folds)-and--Choosing-K">3.2 Cross-validation (10 folds) and  Choosing K<a class="anchor-link" href="#3.2-Cross-validation-(10-folds)-and--Choosing-K">&#182;</a></h2>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="4.2a-Follower_Count-and-Post_Count">4.2a Follower_Count and Post_Count<a class="anchor-link" href="#4.2a-Follower_Count-and-Post_Count">&#182;</a></h3>
+<h3 id="3.2a-Follower_Count-and-Post_Count">3.2a Follower_Count and Post_Count<a class="anchor-link" href="#3.2a-Follower_Count-and-Post_Count">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15104,7 +15104,7 @@ height=300
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="4.2b-Friend_Count-and-Liked_Count">4.2b Friend_Count and Liked_Count<a class="anchor-link" href="#4.2b-Friend_Count-and-Liked_Count">&#182;</a></h3>
+<h3 id="3.2b-Friend_Count-and-Liked_Count">3.2b Friend_Count and Liked_Count<a class="anchor-link" href="#3.2b-Friend_Count-and-Liked_Count">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15439,7 +15439,7 @@ height=300
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="4.2c-Follower_Count,-Post_Count,-and-Liked_Count">4.2c Follower_Count, Post_Count, and Liked_Count<a class="anchor-link" href="#4.2c-Follower_Count,-Post_Count,-and-Liked_Count">&#182;</a></h3>
+<h3 id="3.2c-Follower_Count,-Post_Count,-and-Liked_Count">3.2c Follower_Count, Post_Count, and Liked_Count<a class="anchor-link" href="#3.2c-Follower_Count,-Post_Count,-and-Liked_Count">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15784,7 +15784,7 @@ height=300
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.3-Training-Error">4.3 Training Error<a class="anchor-link" href="#4.3-Training-Error">&#182;</a></h2>
+<h2 id="3.3-Training-Error">3.3 Training Error<a class="anchor-link" href="#3.3-Training-Error">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -15899,7 +15899,7 @@ height=300
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="4.4-Result-(Test-Data)">4.4 Result (Test Data)<a class="anchor-link" href="#4.4-Result-(Test-Data)">&#182;</a></h2>
+<h2 id="3.4-Result-(Test-Data)">3.4 Result (Test Data)<a class="anchor-link" href="#3.4-Result-(Test-Data)">&#182;</a></h2>
 </div>
 </div>
 </div>
@@ -16266,7 +16266,7 @@ height=480
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="5.-Expected-Outcomes-and-Significance">5. Expected Outcomes and Significance<a class="anchor-link" href="#5.-Expected-Outcomes-and-Significance">&#182;</a></h1><p>By analyzing 1000 Twitter accounts chosen at random, this project tends to discover a class association that states accounts with higher followers, posts, and likes will probably be verified.
+<h1 id="4.-Expected-Outcomes-and-Significance">4. Expected Outcomes and Significance<a class="anchor-link" href="#4.-Expected-Outcomes-and-Significance">&#182;</a></h1><p>By analyzing 1000 Twitter accounts chosen at random, this project tends to discover a class association that states accounts with higher followers, posts, and likes will probably be verified.
     Predicting whether an account will be verified and then determining which factor is most predominant, contributes to ascertaining what kind of social benchmarks must be reached for the common Twitter account to become verified.
     However, some questions arising from this analysis. Firstly, Twitter Verified is a status given by Twitter directly, does follower_count matter as much as legitimate followers? In essence, does quantity beat quality when Twitter goes through the account verification process? Furthermore, are there any instances of outliers, such as some public figures that meet all of our benchmarks but are not Twitter Verified? What are the causes of these outlier status? These questions are what would not be solved and will be explored in the future study.</p>
 
